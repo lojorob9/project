@@ -5,7 +5,6 @@ html,body{
 }
 #nav{
     font-size: 20px;
-    float: right;
     font-family: 'Kaisei HarunoUmi', serif;
      margin: 0 15px;
      padding: 20px;
@@ -28,18 +27,28 @@ text-decoration: none;
 }
 .box {
     padding: 50px;
-    float: left;
     border: 5px solid black;  
     margin: 30px; 
     height: 400px; 
     width: 300px;
     text-align: center;
     position: relative;
+    
 } 
 .info{
     background: aqua;
-    width: 74%;
+    width: 70%;
     bottom: 10px;
     position: absolute;
     border: 1px dashed black;
+    align-items: center;
+}
+#replacement{
+    display: flex;
+    justify-content: space-between;
+    background-color: aqua;
+}
+#parent{
+    display: flex;
+    justify-content: flex-start;
 }
